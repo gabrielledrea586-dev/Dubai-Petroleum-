@@ -1,0 +1,18 @@
+2026-08-11 13:33:08.481: [INFO] CurrentProfilePath: C:\Users\rozzy\Desktop\dubaipetroleum\.edge-now-tech-ref\Default
+2026-08-11 13:33:08.481: [INFO] Profiles total count: 1
+2026-08-11 13:33:08.483: [INFO] Profile: name=Profile 1 path=C:\Users\rozzy\Desktop\dubaipetroleum\.edge-now-tech-ref\Default lastActive=2026-08-11T13:33:08.446Z
+2026-08-11 13:33:08.483: [INFO] LastUsedProfileDir: C:\Users\rozzy\Desktop\dubaipetroleum\.edge-now-tech-ref\Default
+2026-08-11 13:33:08.483: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=C:\Users\rozzy\Desktop\dubaipetroleum\.edge-now-tech-ref\Default lastActive=2026-08-11T13:33:08.446Z
+2026-08-11 13:33:08.483: [INFO] OnDoneLoading sync enabled: 0
+2026-08-11 13:33:08.483: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-08-11 13:33:08.483: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-08-11 13:33:08.483: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-11 13:33:09.528: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-08-11 13:33:09.751: [INFO] VisibilityChanged: 0
+2026-08-11 13:33:36.335: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-08-11 13:33:36.340: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-08-11 13:33:36.343: [INFO] Primary account changed.
+2026-08-11 13:33:36.343: [INFO] OnPrimaryAccountChanged PrimaryAccountChangeEvent::Type::kSet
+2026-08-11 13:33:36.360: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-08-11 13:33:36.404: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-08-11 13:34:28.184: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1

@@ -1,0 +1,18 @@
+.field-layout{min-height:892px}
+.field-layout .about-sidebar{transform:translateX(13px)}
+.field-content{padding-bottom:109px}
+.field-lead{max-width:650px;margin:0;color:#d73129;font-size:20px;line-height:1.48}
+.field-stats{display:flex;justify-content:center;max-width:610px;margin:71px auto 113px;text-align:center}
+.field-stat{position:relative;flex:1;padding:0 25px}
+.field-stat+.field-stat::before{content:"";position:absolute;left:0;top:23px;width:1px;height:50px;background:#e5e5e5}
+.field-stat span{display:block;margin-bottom:9px;color:#555;font-size:20px;line-height:1.2;white-space:nowrap}
+.field-stat strong{display:block;color:#d73129;font-size:40px;line-height:1;font-weight:300}
+.field-details{font-size:16px;line-height:1.48}
+.field-details p{margin:0 0 12px}
+.field-details .field-repeat{margin-bottom:145px}
+.field-page[data-field="rashid"] .field-layout{min-height:818px}
+.field-page[data-field="rashid"] .field-content{padding-bottom:87px}
+.field-page[data-field="jalilah"] .field-content{padding-bottom:99px}
+@media(max-width:900px){.field-layout{min-height:0}.field-layout .about-sidebar{transform:none}.field-stats{margin-bottom:75px}}
+@media(max-width:600px){.field-lead{font-size:18px}.field-stats{max-width:none;margin:40px -8px 70px}.field-stat{padding:0 8px}.field-stat span{font-size:14px;white-space:normal}.field-stat strong{font-size:32px}.field-details{font-size:15px}.field-details .field-repeat{margin-bottom:80px}}
+@media print{.field-stats{margin:35px auto}.field-details .field-repeat{margin-bottom:35px}}

@@ -1,0 +1,13 @@
+.journey-layout{min-height:0}
+.journey-content{padding-bottom:100px}
+.journey-content h1{margin-bottom:31px}
+.journey-timeline{position:relative;margin:0;padding:0;list-style:none}
+.timeline-item{position:relative;display:grid;grid-template-columns:70px 1fr;align-content:start;min-height:62.5px;padding:20px 0 20px 30px;border-left:1px solid #e5e4e2;font-size:16px;line-height:22.5px}
+.timeline-item.has-visual{min-height:125px}
+.timeline-item::before{content:"";position:absolute;top:22px;left:-10px;width:20px;height:20px;border-radius:50%;background:#e5e4e2;transition:background-color .5s}
+.timeline-item:hover::before{background:#00723d}
+.timeline-year{padding-left:0}.timeline-event{padding-left:0}
+.journey-layout .about-sidebar{margin-top:0}
+@media(max-width:900px){.journey-layout{min-height:0}.timeline-item{grid-template-columns:58px 1fr;padding-left:26px;font-size:15px}.timeline-item.has-visual{min-height:105px}}
+@media(max-width:600px){.timeline-item{grid-template-columns:1fr;padding:20px 10px 20px 28px}.timeline-year{font-weight:700;margin-bottom:4px}}
+@media print{.journey-layout{min-height:0}.timeline-item.has-visual{min-height:62.5px}}

@@ -1,0 +1,51 @@
+.careers-page .nav-item.current{border-bottom-color:#008144}
+.careers-masthead{position:relative;height:455px;margin-top:160px;background:#183c31 url('assets/careers-hero.jpg') center 38%/cover no-repeat;color:#fff}
+.careers-masthead::before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.55),rgba(0,0,0,.08) 70%)}
+.careers-masthead-inner{position:relative;z-index:1;max-width:1400px;height:100%;margin:auto;padding:0 30px;display:flex;align-items:flex-end}
+.careers-masthead h1{max-width:760px;margin:0 0 64px;font-size:52px;line-height:1.05}
+.careers-main{max-width:1400px;margin:auto;padding:44px 30px 100px}
+.careers-breadcrumb{margin:0 0 22px;color:#bbb;text-transform:uppercase;letter-spacing:1.8px;font-size:14px}
+.careers-breadcrumb a{color:#777}.careers-breadcrumb span{padding:0 9px;color:#d73129}
+.careers-print{height:31px;margin-bottom:42px;padding-bottom:10px;border-bottom:1px solid #e5e4e2;text-align:right}
+.careers-print a{display:inline-block;padding:5px 0 5px 25px;background:url('assets/icon-print.jpg') no-repeat left center;color:#041e41;text-transform:uppercase;font-size:11px;line-height:14px}
+.careers-print a span{display:none}
+.career-destinations{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;background:#fff}
+.career-destination{position:relative;display:flex;min-height:175px;align-items:flex-end;padding:25px;background:#d73129;color:#fff;overflow:hidden}
+.career-destination:nth-child(3n+2){background:#00723d}.career-destination:nth-child(3n){background:#122f46}.career-destination:nth-child(4n){background:#3d745e}
+.career-destination::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(255,255,255,.08),transparent 55%);transition:.3s}
+.career-destination::after{content:'›';position:absolute;right:22px;bottom:17px;font-size:34px;line-height:1}
+.career-destination:hover::before{background:rgba(0,0,0,.13)}
+.career-destination h2{position:relative;max-width:225px;margin:0 30px 0 0;font-size:22px;line-height:1.18}
+.life-header{max-width:1400px;margin:320px auto 0;padding:50px 30px 0}
+.life-header h1{max-width:900px;margin:0 0 27px;font-size:48px;line-height:1.08}
+.life-main{max-width:1200px;margin:auto;padding:0 30px 105px}
+.life-section{margin:0 0 54px}
+.life-section img{width:100%;aspect-ratio:1200/458;object-fit:cover;margin-bottom:28px}
+.life-section h2{margin:0 0 14px;font-size:28px;line-height:1.2}
+.life-section p{margin:0 0 14px;font-size:16px;line-height:1.5}
+.life-section ul{margin:13px 0 0;padding-left:22px;font-size:16px;line-height:1.55}
+.life-section li{margin-bottom:6px}
+.life-section .inline-link{color:#00723d;text-decoration:underline;text-underline-offset:2px}
+.careers-coming-soon{min-height:145px}
+.careers-coming-soon p{margin:0;font-size:16px;line-height:1.5}
+.careers-text-main{padding-bottom:75px}
+.career-text-section{margin:0 0 46px;padding-bottom:38px;border-bottom:1px solid #e5e4e2}
+.career-text-section:last-child{margin-bottom:0;border-bottom:0}
+.career-text-section h2{margin:0 0 16px;font-size:28px;line-height:1.2}
+.career-text-section p{margin:0 0 14px;font-size:16px;line-height:1.55}
+.leadership-main{max-width:1200px}
+.leadership-title{margin:0 0 12px;font-size:34px;line-height:1.2}
+.leadership-intro{margin:0;font-size:16px;line-height:1.5}
+.leadership-grid{display:grid;grid-template-columns:repeat(3,1fr);margin:50px 0 0;text-align:center}
+.leadership-card{background:#f5f5f5;font-size:16px}
+.leadership-card:nth-child(even){background:#e8e8e8}
+.leadership-card>h2{display:flex;height:120px;margin:0;align-items:center;justify-content:center;background:#00723d;color:#fff;font-size:26px;line-height:1.08}
+.leadership-card:nth-child(even)>h2{background:#00592f}
+.leadership-card>img{display:block;width:100%;height:300px;object-fit:contain}
+.leadership-card>div{padding:0 50px 50px}
+.leadership-card h3{margin:0 0 11px;font-size:16px;line-height:1.35}
+.leadership-card p{margin:0 0 19px;font-size:16px;line-height:1.48}
+@media(max-width:1000px){.career-destinations{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:1079px){.careers-print a{display:none}}
+@media(max-width:900px){.careers-masthead{margin-top:132px;height:390px}.life-header{margin-top:260px}.careers-masthead h1{font-size:45px}.life-header h1{font-size:42px}.leadership-grid{grid-template-columns:1fr}.leadership-card>div{padding-left:35px;padding-right:35px}.leadership-card>img{height:250px}}
+@media(max-width:600px){.careers-masthead{margin-top:132px;height:330px}.careers-masthead h1{margin-bottom:45px;font-size:39px}.careers-main,.life-main{padding-left:20px;padding-right:20px}.life-header{margin-top:220px;padding-left:20px;padding-right:20px}.life-header h1{font-size:37px}.career-destinations{grid-template-columns:1fr}.career-destination{min-height:135px}.life-section h2,.career-text-section h2{font-size:24px}.leadership-title{font-size:29px}.leadership-grid{margin-top:35px}.leadership-card>h2{height:105px;font-size:24px}}

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Contact Dubai Petroleum Establishment and send an enquiry.">
+  <title>Contact details | Dubai Petroleum</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="chairman.css">
+  <link rel="stylesheet" href="contact.css">
+  <script src="script.js" defer></script>
+  <script src="contact-page.js" defer></script>
+</head>
+<body class="internal-page contact-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <div class="utility-bar">
+      <form class="search-form" id="searchForm" role="search">
+        <label class="sr-only" for="siteSearch">Search this site</label>
+        <input id="siteSearch" type="search" placeholder="Search" autocomplete="off">
+        <button type="submit" aria-label="Open search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 5 5"></path></svg></button>
+      </form>
+      <span class="invoice-link" aria-disabled="true">E-INVOICING</span>
+    </div>
+    <nav class="main-nav" aria-label="Primary navigation">
+      <a class="brand" href="index.html" aria-label="Dubai Petroleum home"><img src="assets/header-logo.jpg" alt="Dubai Petroleum"></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navMenu" aria-label="Open navigation"><span></span><span></span><span></span></button>
+      <div class="nav-panel" id="navMenu"><ul class="nav-list"></ul></div>
+    </nav>
+  </header>
+
+  <div class="contact-hero" role="img" aria-label="Dubai Petroleum offshore operations"></div>
+
+  <main class="chairman-layout contact-layout" id="main">
+    <article class="chairman-content contact-content">
+      <a class="section-label" href="contact-details.html">Contact us</a>
+      <h1>Contact details</h1>
+      <div class="print-row"><a id="printPage" href="#"><span aria-hidden="true"></span> Print</a></div>
+
+      <section class="contact-block" aria-labelledby="establishmentTitle">
+        <h2 id="establishmentTitle">Dubai Petroleum Establishment</h2>
+        <div class="contact-facts">
+          <address>1st Interchange<br>Sheikh Zayed Road<br>Al Safa Street<br>Dubai, UAE</address>
+          <a class="contact-number-slot" id="contactNumberSlot" href="tel:+447378347853" aria-label="Call +44 7378 347853">+44 7378 347853</a>
+        </div>
+      </section>
+
+      <section class="contact-block" aria-labelledby="enquiryTitle">
+        <h2 id="enquiryTitle">Enquiry Form</h2>
+        <form class="enquiry-form" id="enquiryForm" novalidate>
+          <label class="sr-only" for="enquiryType">Enquiry type</label>
+          <select id="enquiryType" name="enquiryType" required>
+            <option value="">—Please choose an option—</option>
+            <option>General Enquiry</option>
+            <option>Procurement and Contracts</option>
+            <option>HR Section</option>
+          </select>
+          <label for="enquiryName">Name</label>
+          <input id="enquiryName" name="name" type="text" autocomplete="name" required>
+          <div class="form-columns">
+            <div><label for="enquiryTelephone">Telephone</label><input id="enquiryTelephone" name="telephone" type="tel" autocomplete="tel" required></div>
+            <div><label for="enquiryEmail">Email</label><input id="enquiryEmail" name="email" type="email" autocomplete="email" required></div>
+          </div>
+          <label for="enquiryMessage">Enquiry</label>
+          <textarea id="enquiryMessage" name="message" rows="5" maxlength="2000" required></textarea>
+          <button class="contact-submit" type="submit">Submit</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+
+      <section class="contact-block location-block" aria-labelledby="mapTitle">
+        <h2 id="mapTitle">Location Map</h2>
+        <iframe title="Dubai Petroleum location map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.8040285953575!2d55.26164491448468!3d25.20983053737545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f4266b8a8c9a3%3A0xe6a16f05451f4008!2sDubai%20Petroleum!5e0!3m2!1sen!2sin!4v1662453780091!5m2!1sen!2sin" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+    </article>
+
+    <aside class="about-sidebar contact-sidebar" aria-label="Contact us navigation">
+      <a class="sidebar-title" id="sidebarToggle" href="#" aria-expanded="true">Contact us</a>
+      <nav class="sidebar-menu open" id="aboutSideNav"><a class="active" href="contact-details.html" aria-current="page">Contact details</a></nav>
+    </aside>
+  </main>
+
+  <footer class="chairman-footer">
+    <a class="sitemap-link" href="#footerLinks">Sitemap <span>−</span></a>
+    <div class="chairman-footer-grid" id="footerLinks">
+      <div><h3>About us</h3><a href="chairman-message.html">Chairman’s message</a><a href="our-journey.html">Our journey</a><a href="dpe-corporate-video.html">DPE media</a><a href="oil-and-gas-assets.html">Oil and gas assets</a></div>
+      <div><h3>Governance</h3><a href="cyber-security.html">Cyber security</a></div>
+      <div><h3>Innovation &amp; Technology</h3><a href="technology-strategy.html">Technology strategy</a><a href="technology-now.html">Technology now</a><a href="overcoming-technology-challenges.html">Overcoming technology challenges</a></div>
+      <div><h3>Sustainability</h3><a href="responsible-operations.html">Responsible operations</a><a href="emergency-response.html">Emergency response</a></div>
+      <div><h3>Careers</h3><a href="life-at-dpe.html">Life at DPE</a><a href="uae-national-careers.html">UAE national careers</a><a href="current-vacancies.html">Current vacancies</a><a href="new-to-dubai.html">New to Dubai</a><a href="career-opportunities-development.html">Career opportunities and development</a><a href="starting-with-dpe.html">Starting with Dubai Petroleum Establishment</a><a href="leadership-competencies.html">Leadership competencies</a></div>
+      <div><h3>Contact us</h3><a href="contact-details.html">Contact details</a></div>
+    </div>
+    <div class="chairman-footer-bottom"><p>© Dubai Petroleum. All rights reserved. | <a href="#">Privacy Policy</a></p><p>Dubai Petroleum is an ISO 14001 certified Company committed to continuously improve our efforts towards protecting the environment.</p></div>
+  </footer>
+  <div class="cookie-bar" id="cookieBar" role="region" aria-label="Cookie notice"><p>www.dubaipetroleum.ae uses cookies to provide necessary website functionality, improve your experience and analyze our traffic. By using our website, you agree to our Privacy Policy and our Cookies Policy.</p><button id="cookieOkay" type="button">OKAY</button></div>
+</body>
+</html>

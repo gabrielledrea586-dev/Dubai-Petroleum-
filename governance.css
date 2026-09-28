@@ -1,0 +1,8 @@
+.governance-layout{min-height:485px}
+.governance-content{padding-bottom:100px}
+.governance-copy{font-size:16px;line-height:1.5}
+.governance-copy p{margin:0 0 12px}
+.governance-sidebar{transform:translateX(13px)}
+.governance-sidebar .sidebar-title{width:235px;background:#008144}
+.governance-sidebar .sidebar-menu{height:348px;padding-top:155px;padding-bottom:150px}
+@media(max-width:900px){.governance-layout{min-height:0}.governance-sidebar{transform:none}.governance-sidebar .sidebar-title{width:100%}.governance-sidebar .sidebar-menu{height:auto;padding-top:0;padding-bottom:0}.governance-sidebar .sidebar-menu.open{padding-top:25px;padding-bottom:25px}}

@@ -1,0 +1,2 @@
+{"logTime": "0811/133423", "correlationVector":"2ZqgUI74CS3dwwIiN4um6N.1","action":"SyncServerConnectionManagerRequest", "result":"SYNC_SERVER_OK", "context":{"environment":"Prod_francecentral_prod-s01-062-eur-francecentral", "migrationStage":"NotStarted", "server":"akswtt117000014"}}
+{"logTime": "0811/133423", "correlationVector":"2ZqgUI74CS3dwwIiN4um6N.2","action":"ProcessGetUpdates", "result":"Done", "context":{"dataType":"Encryption Keys", "deleted":"0", "process_failed_to_decrypt":"0", "process_pending_decryption":"0", "process_success":"1", "total":"1"}}

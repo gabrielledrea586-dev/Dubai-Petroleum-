@@ -1,0 +1,5 @@
+2026/08/11-14:33:16.913 4c38 Creating DB C:\Users\rozzy\Desktop\dubaipetroleum\.edge-matrix-tech-ref\Default\EdgeCoupons/coupons_data.db since it was missing.
+2026/08/11-14:33:16.970 4c38 Reusing MANIFEST C:\Users\rozzy\Desktop\dubaipetroleum\.edge-matrix-tech-ref\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
+2026/08/11-14:34:29.832 34d0 Level-0 table #5: started
+2026/08/11-14:34:30.002 34d0 Level-0 table #5: 683284 bytes OK
+2026/08/11-14:34:30.010 34d0 Delete type=0 #3

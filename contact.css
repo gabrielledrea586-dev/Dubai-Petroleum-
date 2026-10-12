@@ -8,10 +8,12 @@
 .contact-content h2{margin:0 0 24px;font-size:27px;line-height:1.2}
 .contact-block{margin:0 0 48px}
 .contact-facts{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin:0 0 45px}
-.contact-facts address,.contact-number-slot{min-height:92px;margin:0;padding-left:36px;background-position:left 4px;background-repeat:no-repeat;font-style:normal;font-size:16px;line-height:1.5}
+.contact-facts address,.contact-number-slot,.contact-email-slot{min-height:92px;margin:0;padding-left:36px;background-position:left 4px;background-repeat:no-repeat;font-style:normal;font-size:16px;line-height:1.5}
 .contact-facts address{background-image:url('assets/contact-location.png')}
 .contact-number-slot{background-image:url('assets/icon-phone.png');color:#00723d;font-size:22px;font-weight:700;line-height:1.35;letter-spacing:.7px;text-decoration:none}
 .contact-number-slot:hover,.contact-number-slot:focus-visible{color:#d73129;text-decoration:underline;text-underline-offset:4px}
+.contact-email-slot{background-image:url('assets/icon-enquiry.png');color:#00723d;font-size:20px;font-weight:700;line-height:1.35;letter-spacing:.4px;text-decoration:none;word-break:break-word}
+.contact-email-slot:hover,.contact-email-slot:focus-visible{color:#d73129;text-decoration:underline;text-underline-offset:4px}
 .enquiry-form{font-size:16px}
 .enquiry-form>label,.form-columns label{display:block;margin:17px 0 2px;padding:5px;font-weight:400}
 .enquiry-form select,.enquiry-form input,.enquiry-form textarea{display:block;width:100%;margin:0 0 12px;padding:9px 5px;border:0;border-bottom:1px solid #e5e4e2;border-radius:0;background:#fff;color:#222;font:16px/1.4 Arial,sans-serif;outline:none}

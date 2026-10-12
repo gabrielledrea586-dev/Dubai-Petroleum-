@@ -1,5 +1,6 @@
 const enquiryForm = document.querySelector('#enquiryForm');
 const formStatus = document.querySelector('#formStatus');
+const contactEmail = 'info@dubaipetroleums.com';
 
 enquiryForm?.addEventListener('submit', (event) => {
   event.preventDefault();
@@ -10,7 +11,19 @@ enquiryForm?.addEventListener('submit', (event) => {
     formStatus.classList.add('error');
     return;
   }
-  formStatus.textContent = 'Thank you. Your enquiry has been prepared successfully.';
+
+  const formData = new FormData(enquiryForm);
+  const subject = encodeURIComponent(`Dubai Petroleum ${formData.get('enquiryType') || 'Enquiry'}`);
+  const body = encodeURIComponent([
+    `Name: ${formData.get('name') || ''}`,
+    `Telephone: ${formData.get('telephone') || ''}`,
+    `Email: ${formData.get('email') || ''}`,
+    `Enquiry Type: ${formData.get('enquiryType') || ''}`,
+    '',
+    formData.get('message') || ''
+  ].join('\n'));
+
+  window.location.href = `mailto:${contactEmail}?subject=${subject}&body=${body}`;
+  formStatus.textContent = 'Opening your email app to send this enquiry.';
   formStatus.classList.add('success');
-  enquiryForm.reset();
 });
